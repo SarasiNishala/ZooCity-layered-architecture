@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="601.0" prefWidth="857.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.DashBoardController">
+   <children>
+      <ImageView fitHeight="610.0" fitWidth="874.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/Dashboard.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#767676" height="25.0" layoutX="64.0" layoutY="525.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="68.0" layoutY="529.0" onMouseClicked="#logOutClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/logout.png" />
+         </image>
+      </ImageView>
+      <Group layoutX="90.0" layoutY="222.0">
+         <children>
+            <ImageView fx:id="ticketRec" fitHeight="35.0" fitWidth="46.0" layoutX="-33.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/select.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="foodRec" fitHeight="35.0" fitWidth="46.0" layoutX="-33.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/select.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mediRec" fitHeight="35.0" fitWidth="46.0" layoutX="-33.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/select.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cageRec" fitHeight="35.0" fitWidth="46.0" layoutX="-33.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/select.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="aniRec" fitHeight="35.0" fitWidth="46.0" layoutX="-33.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/select.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="empRec" fitHeight="35.0" fitWidth="46.0" layoutX="-33.0" layoutY="-33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/select.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="homeRec" fitHeight="35.0" fitWidth="46.0" layoutX="-33.0" layoutY="-90.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/select.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff6380" height="25.0" layoutX="-23.0" layoutY="-31.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+            <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="-19.0" layoutY="-27.0" onMouseClicked="#employeeOnClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/employee.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f19c2d" height="25.0" layoutX="-23.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+            <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="-19.0" layoutY="30.0" onMouseClicked="#animalOnClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/animal.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cc77ff" height="25.0" layoutX="-21.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+            <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="-17.0" layoutY="86.0" onMouseClicked="#cageOnClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/cage.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6a64d4" height="25.0" layoutX="-23.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+            <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="-19.0" layoutY="142.0" onMouseClicked="#medicineOnClic" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/medicine.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3ec278" height="25.0" layoutX="-23.0" layoutY="195.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+            <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="-19.0" layoutY="199.0" onMouseClicked="#foodOnClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/food.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ec8f5e" height="25.0" layoutX="-23.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+            <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="-19.0" layoutY="254.0" onMouseClicked="#ticketOnClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/tickets.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8bc34a" height="25.0" layoutX="-23.0" layoutY="-89.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+            <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="-19.0" layoutY="-85.0" onMouseClicked="#homeOnClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/home.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <Pane fx:id="root" layoutX="106.0" layoutY="47.0" prefHeight="433.0" prefWidth="652.0" />
+   </children>
+</AnchorPane>

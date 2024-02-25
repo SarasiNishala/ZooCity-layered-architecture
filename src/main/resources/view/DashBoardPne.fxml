@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="homeRoot" prefHeight="500.0" prefWidth="690.0" style="-fx-background-color: transpranet;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.DashBoardPneController">
+   <children>
+      <ImageView fitHeight="133.0" fitWidth="352.0" layoutX="15.0" layoutY="24.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../Assets/statusRec.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="154.0" layoutX="214.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/zoo.png" />
+         </image>
+      </ImageView>
+      <Text fill="#145b33" layoutX="25.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello,Nishala">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#145b33" layoutX="25.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Back! Sick animals are recoveringso quickly." wrappingWidth="181.0">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="20.0" fitWidth="23.0" layoutX="26.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/group.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="52.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="49">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#434040" layoutX="71.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employees came to work today.">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="24.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/ticketsBlack.png" />
+         </image>
+      </ImageView>
+      <Text fill="#434040" layoutX="48.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="So far ">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Text layoutX="81.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="268">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#434040" layoutX="108.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tickets have been sold.">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <Pane layoutX="12.0" layoutY="255.0" prefHeight="96.0" prefWidth="109.0" style="-fx-background-color: white; -fx-background-radius: 8;">
+         <effect>
+            <DropShadow height="1.0" offsetX="3.0" offsetY="3.0" radius="0.0" spread="0.34" width="0.0">
+               <color>
+                  <Color opacity="0.2690804600715637" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Text fill="#145b33" layoutX="17.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Doctors">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Label layoutX="32.0" layoutY="48.0" prefHeight="53.0" prefWidth="45.0" text="11">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="251.0" layoutY="256.0" prefHeight="96.0" prefWidth="109.0" style="-fx-background-color: white; -fx-background-radius: 8;">
+         <effect>
+            <DropShadow height="1.0" offsetX="3.0" offsetY="3.0" radius="0.0" spread="0.34" width="0.0">
+               <color>
+                  <Color opacity="0.2690804600715637" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Text fill="#145b33" layoutX="11.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cleaners">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Label layoutX="35.0" layoutY="44.0" prefHeight="53.0" prefWidth="45.0" text="45">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="131.0" layoutY="255.0" prefHeight="96.0" prefWidth="111.0" style="-fx-background-color: white; -fx-background-radius: 8;">
+         <effect>
+            <DropShadow height="1.0" offsetX="3.0" offsetY="3.0" radius="0.0" spread="0.34" width="0.0">
+               <color>
+                  <Color opacity="0.2690804600715637" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Text fill="#145b33" layoutX="32.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Food">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text fill="#145b33" layoutX="8.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Suppliers">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Label layoutX="35.0" layoutY="49.0" prefHeight="53.0" prefWidth="45.0" text="20">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="14.0" layoutY="199.0" prefHeight="61.0" prefWidth="352.0">
+         <children>
+            <Label fx:id="lblDate" layoutX="2.0" layoutY="-40.0" prefHeight="35.0" prefWidth="174.0" textFill="#145b33">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblTime" layoutX="235.0" layoutY="-39.0" prefHeight="32.0" prefWidth="118.0" textFill="#145b33">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Text layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Today’s summary">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Pane layoutX="173.0" layoutY="17.0" prefHeight="24.0" prefWidth="174.0" style="-fx-background-color: #EFEDEC; -fx-background-radius: 5;">
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" height="0.0" offsetX="1.0" offsetY="1.0" radius="0.0" spread="0.58" width="0.0">
+                     <color>
+                        <Color opacity="0.6513410210609436" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <ImageView fitHeight="22.0" fitWidth="24.0" layoutX="143.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/group.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="6.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="379.0" layoutY="377.0" prefHeight="48.0" prefWidth="299.0" style="-fx-background-color: #EFEDEC; -fx-background-radius: 5;">
+         <children>
+            <Pane prefHeight="48.0" prefWidth="34.0" style="-fx-background-color: E4CEBD; -fx-background-radius: 5;" />
+            <Text fill="#2c2929" layoutX="44.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our Food Stock">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#c91313" layoutX="45.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Very Low">
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="248.0" layoutY="8.0">
+               <image>
+                  <Image url="@../Assets/alert.gif" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow height="0.0" offsetX="1.0" offsetY="1.0" radius="0.0" spread="0.58" width="0.0">
+               <color>
+                  <Color opacity="0.3371647596359253" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Pane>
+      <Pane layoutX="378.0" layoutY="433.0" prefHeight="48.0" prefWidth="299.0" style="-fx-background-color: #EFEDEC; -fx-background-radius: 5;">
+         <children>
+            <Pane prefHeight="48.0" prefWidth="34.0" style="-fx-background-color: B5C2DC; -fx-background-radius: 5;" />
+            <Text fill="#2c2929" layoutX="47.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our Medicine Stock">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#1a7c0d" layoutX="51.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Is Good">
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="250.0" layoutY="7.0">
+               <image>
+                  <Image url="@../Assets/good.gif" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow height="0.0" offsetX="1.0" offsetY="1.0" radius="0.0" spread="0.58" width="0.0">
+               <color>
+                  <Color opacity="0.3371647596359253" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Pane>
+      <ImageView fitHeight="152.0" fitWidth="155.0" layoutX="204.0" layoutY="345.0">
+         <image>
+            <Image url="@../Assets/giraff.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="124.0" fitWidth="164.0" layoutX="13.0" layoutY="367.0">
+         <image>
+            <Image url="@../Assets/lion.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="380.0" layoutY="24.0" style="-fx-background-color: #EFEDEC; -fx-background-radius: 5;">
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" height="0.0" offsetX="1.0" offsetY="1.0" radius="0.0" width="0.0">
+               <color>
+                  <Color opacity="0.6513410210609436" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <ImageView fitHeight="20.0" fitWidth="23.0" layoutX="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/animalsDb.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="6.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Animals" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="133.0" fitWidth="142.0" layoutX="379.0" layoutY="72.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/recGreen.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="132.0" layoutX="539.0" layoutY="72.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/recYellow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="142.0" layoutX="537.0" layoutY="226.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/recBlue.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="142.0" layoutX="379.0" layoutY="226.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/recPink.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="389.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Animal" wrappingWidth="89.14941406249994">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="45.0" fitWidth="58.0" layoutX="464.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/animalsDb.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="549.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cage ">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="45.0" fitWidth="42.0" layoutX="619.0" layoutY="126.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/cage2.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="396.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Food ">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="42.0" fitWidth="55.0" layoutX="463.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/foodBlack.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="544.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medicine">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="42.0" fitWidth="55.0" layoutX="620.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/medicineBlack.png" />
+         </image>
+      </ImageView>
+      <TextField editable="false" layoutX="373.0" layoutY="137.0" prefHeight="65.0" prefWidth="97.0" style="-fx-background-color: transpranet;" text="10458">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="538.0" layoutY="133.0" prefHeight="61.0" prefWidth="80.0" style="-fx-background-color: transpranet;" text="231">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="530.0" layoutY="293.0" prefHeight="65.0" prefWidth="90.0" style="-fx-background-color: transpranet;" text="Low">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <TextField editable="false" layoutX="372.0" layoutY="292.0" prefHeight="65.0" prefWidth="90.0" style="-fx-background-color: transpranet;" text="Filld">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <Text layoutX="390.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Count">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="551.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Count">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="396.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="547.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

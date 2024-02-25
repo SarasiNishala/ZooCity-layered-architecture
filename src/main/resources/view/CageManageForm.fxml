@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="430.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.CageManageFormController">
+   <children>
+      <Text layoutX="146.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cage Controll">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="38.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee Id" />
+      <Button layoutX="37.0" layoutY="346.0" mnemonicParsing="false" onAction="#btnSaveOnAction" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #88ABDF; -fx-background-radius: 5;" text="Save" />
+      <Button layoutX="134.0" layoutY="346.0" mnemonicParsing="false" onAction="#btnEditOnAction" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #7ACC9E; -fx-background-radius: 5;" text="Edit" />
+      <Button layoutX="329.0" layoutY="346.0" mnemonicParsing="false" onAction="#btnClearOnAction" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #DF8888; -fx-background-radius: 5;" text="Clear" />
+      <Button layoutX="232.0" layoutY="346.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: gray; -fx-background-radius: 5;" text="Delete" />
+      <Text layoutX="38.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cage Id" />
+      <Text layoutX="251.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" />
+      <Text layoutX="252.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time" />
+      <Label fx:id="lblDate" layoutX="251.0" layoutY="128.0" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: white; -fx-background-radius: 5;" />
+      <Label fx:id="lblTime" layoutX="252.0" layoutY="239.0" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: white; -fx-background-radius: 5;" />
+      <ComboBox fx:id="cmbEmployeeId" editable="true" layoutX="34.0" layoutY="131.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-radius: 5;" />
+      <ComboBox fx:id="cmbCageId" editable="true" layoutX="34.0" layoutY="239.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-radius: 5;" />
+   </children>
+</AnchorPane>
